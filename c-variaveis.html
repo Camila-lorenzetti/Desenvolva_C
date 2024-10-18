@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis da linguagem C</title>
+    <link rel="stylesheet" href="c-variaveis.css">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="topo">
+
+
+            <div>
+            <a href="index.html" target="_self" class="botoes">
+                HOME
+            </a>
+        </div>
+            <a href="conteudo-aula.html" target="_self" class="botoes" id="botao2">
+                CONTEUDOS DE AULA
+            </a>
+            <a href="Jogos-interativos.html" target="_self" class="botoes">
+                JOGOS INTERATIVOS
+            </a>
+            <a href="quem-somos.html" target="_self" class="botoes" id="botao4">
+                QUEM SOMOS
+            </a>
+            <a href="pac.html" target="_self" class="botoes">
+                PAC
+            </a>
+
+
+            <div class="box-busca">
+                <div class="search-box">
+           
+                    <form method="post" action="#">
+                        <input type="text" class="search-box-input" name="busca" placeholder="FAÇA SUA PESQUISA">
+                        <button class="search-box-button" id="busca1">
+                        <i class="search-box-icone icon icon-search"></i></button>
+                   
+                    </form>
+                   
+                </div>
+           
+            </div>
+
+
+            </div>
+
+
+           
+            <hr color="blueviolet">
+
+            <div id="inicio">
+                VARIÁVEIS NA LINGUAGEM C
+            </div>
+            <hr color="blueviolet">
+        </header>
+
+        <div id="texto">
+            <h1>TIPOS DE VARIÁVEIS:</h1>
+            <p>
+                Em C, as variáveis são como caixas que armazenam diferentes tipos de dados. Cada tipo de dado tem 
+                suas características e ocupa uma quantidade específica de memória. Os tipos int, float e char são 
+                os mais básicos e utilizados com frequência.
+            </p>
+
+            <ul>
+                <li>TIPO INT: Utilizado para armazenar números inteiros apenas, (que não são quebrados).
+                    Exemplo: idade, quantidades de itens e etc.
+                </li>
+                <li>
+                    TIPO FLOAT: Usada para armazenar números com pontos flutuantes, ou seja, números com parte fracionária, (que são quebrados).
+                    Exemplo: altura, medidas e etc.
+                </li>
+                <li>
+                    TIPO CHAR: Usada para armazenar um único caractere.
+                    Exemplo: letra, número ou símbolo.
+                </li>
+            </ul>
+
+            <p>
+                Além dessas variáveis, também utilizaremos a tipo string, que apesar de não ser ‘natural’ em C, podemos introduzir em nosso código. 
+                E ela serve para a cadeia de caracteres, onde podemos adicionar mais caracteres junto da variável char.
+            </p>
+
+            <h2>INICIANDO COM VÁRIAVEIS:</h2>
+            <p>
+                Para iniciarmos com as variáveis, vamos tomar um exemplo para melhor explicação. Onde, vamos escrever um código que você põe sua 
+                idade dentro do próprio código, e no texto seguinte ele imprime o dado digitado.
+            </p>
+            <h4>PASSO 1:</h4>
+            <P>
+                Para começarmos vamos adicionar as tags básicas.
+            </P>
+
+            <img src="Fotos/vbasic.png"alt="imagem da tela mostrando as tags básicas" width="450px" height="350px"/>
+
+            <h4>PASSO 2:</h4>
+            <p>
+                Em Seguida vamos criar uma variável da seguinte forma:
+                Após o " int main(void){ ", digite: int - Seguido do nome da sua variável, que no nosso exemplo 
+                será idade.
+            </p>
+            <h4>PASSO 3:</h4>
+            <p>
+                Para inserir sua idade, utilize a variável criada: " idade = sua idade aqui; "
+            </p>
+            <h4>PASSO 4:</h4>
+            <p>
+                Agora vamos adicionar o comando “imprimir" (printf), e dentro dos parênteses e das aspas 
+                iremos adicionar %i, onde o “i” é parte do comando da variável int. E ele serve para reescrever 
+                de forma impressa o dado. Junto disso, precisamos especificar qual é a nossa variável. Exemplo: " printf(" %i",idade); "
+            </p>
+            <h4>PASSO 5:</h4>
+            <p>
+                É possível incrementamos nosso código, com caracteres e pequenos comandos.
+            </p>
+            <ul>
+                <li>\n - Usado para pular uma linha.</li>
+                <li>\t  → Usado para dar tab (aproximadamente 10 cliques na barra de espaço).</li>
+            </ul>
+
+            <h2>EXEMPLO UTILIZANDO INT:</h2>
+            <p>
+                De forma simples escreveremos as nossas tags básicas novamente em um novo arquivo. 
+                Em seguida adicionaremos uma variável int com o nome idade (int idade). 
+                Após isso adicionamos um comando o de imprimir:
+            </p>
+            <h4>printf(“Digite sua idade:”);</h4>
+            <p>
+                Para fazer com que o programa escaneie o dado, escrevemos logo abaixo:
+            </p>
+            <h4>scanf("%i", &idade);</h4>
+            <p> - Escaneia o dado e atribui o dado para a variável idade.</p>
+            <h4>fflush(stdin);</h4>
+            <p> - Utilizado para ‘limpar o dado’, ou seja, caso o usuário digite algum caractere além do esperado
+                 pelo programa, apenas irá aparecer o que é esperado. Isso, caso eu acabe digitando acidentalmente
+                  na minha idade ‘19l.’, na minha saída de dado irá apenas aparecer 19.
+            </p>
+            <p>
+                E para finalizar, escrevemos o comando printf novamente para a saída do dado:
+            </p>
+            <h4>printf("Sua idade e igual a %i.", idade);</h4>
+            <p>
+                Ao final o código deve se parecer da seguinte forma:
+            </p>
+            <img src="Fotos/vidade.png"alt="imagem da tela mostrando o código" width="450px" height="400px"/>
+            <p>
+                Já no executador aparecerá assim:
+            </p>
+            <img src="Fotos/Capturar.PNG"alt="imagem da tela mostrando o executador" width="450px" height="200px"/>
+            
+            <h2>EXEMPLO UTILIZANDO FLOAT:</h2>
+            <P>Baseia-se no último exemplo, porém com a mudança da variável " idade " para " altura ", necessitando 
+                assim a utilização de virgula e tornando-se float. Ao final o código deve se parecer da seguinte forma:
+            </P>
+            <img src="Fotos/vfloat.png"alt="imagem da tela mostrando o código" width="450px" height="350px"/>
+
+            <h2>EXEMPLO UTILIZANDO CHAR:</h2>
+            <p>Também se baseia no último exemplo, porém neste caso mudaremos a variável para uma letra do alfabeto.
+                Ao final o código deve se parecer da seguinte forma:
+            </p>
+            <img src="Fotos/vchar.png"alt="imagem da tela mostrando o código" width="450px" height="350px"/>
+            <h4>OBSERVAÇÃOES:</h4>
+            <p>Para fazer um programa que lê um nome inteiro e imprime, devemos utilizar a string. Após isso, na 
+                variável char, coloque o número de caracteres que o usuário poderá escrever. Exemplo:
+            </p>
+            <h4>char nome[50];</h4>
+            <p>E em seguida mude “%i” em scanf para “%s” </p>
+            <h4>scanf("%s", &nome);</h4>
+            <p>Após as modificações necessária, segue:</p>
+            <img src="Fotos/vcharg.png"alt="imagem da tela mostrando o código" width="450px" height="350px"/>
+            </div>
+
+
+    </body>
+    </html>

@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(rgb(25, 4, 46),black);
+    text-align: center;
+    height: 1200px;
+    }
+   
+    .botoes{
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:blueviolet;
+        font-weight: bolder;
+        text-decoration: none;
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+        font-size: 15px;
+        background-color: transparent;
+    }
+   
+    #topo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: sticky;
+    }
+   
+    #botao2{
+    color: Whitesmoke;
+    }
+
+
+.box-busca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.search-box-input::placeholder {
+   
+    color:transparent;
+    opacity: 0.6;
+}
+
+
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+.search-box-input::-moz-placeholder { color: #ffffff; }
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+.search-box form {
+   
+    display: flex;
+    background-color: gray;
+    height: 35px;
+    border-radius: 50px;
+    align-items: center;
+}
+.search-box:hover .search-box-input {
+   
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+}
+.search-box-input {
+    outline: 0;
+    font-size: 15px;
+    color:blueviolet;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    font-weight: bolder;
+
+
+   
+}
+.search-box-button {
+   display: flex;
+   width: 100px;
+   height: 35px;
+   background-color: blueviolet;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+   border-radius: 50px;
+}
+.search-box-button:active  {
+    transform: scale(.85);
+}
+.search-box-icone {
+    margin: auto;
+    color: blueviolet;
+}
+@media screen and (min-width: 400px){
+   
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+}
+
+
+#busca1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#inicio{
+    color:blueviolet;
+    background-color:whitesmoke;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h1{
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#texto{
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 550px;
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-width: 20px;
+    border-style: dashed;
+    font-size: 20px;
+}

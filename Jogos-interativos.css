@@ -1,0 +1,254 @@
+body{
+    background-image:linear-gradient(rgb(25, 4, 46),black);
+    text-align: center;
+    height: 4000px;
+    }
+   
+    .botoes{
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:blueviolet;
+        font-weight: bolder;
+        text-decoration: none;
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+        font-size: 15px;
+        background-color: transparent;
+    }
+   
+    #topo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: sticky;
+    }
+   
+    #botao3{
+    color: whitesmoke;
+    }
+
+
+.box-busca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:transparent;
+    }
+    .search-box-input::placeholder {
+       
+        color:transparent;
+        opacity: 0.6;
+    }
+   
+    .search-box-input::-webkit-input-placeholder { color: #ffffff; }
+    .search-box-input::-moz-placeholder { color: #ffffff; }
+    .search-box-input:-ms-input-placeholder { color: #ffffff; }
+    .search-box form {
+       
+        display: flex;
+        background-color: gray;
+        height: 35px;
+        border-radius: 50px;
+        align-items: center;
+    }
+    .search-box:hover .search-box-input {
+       
+        padding-left: 2em;
+        padding-right: 1em;
+        width: 250px;
+    }
+    .search-box-input {
+        outline: 0;
+        font-size: 15px;
+        color:blueviolet;
+        width: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        transition: .45s;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 50px;
+        font-weight: bolder;
+   
+       
+    }
+    .search-box-button {
+       display: flex;
+       width: 100px;
+       height: 35px;
+       background-color: blueviolet;
+       border: none;
+       cursor: pointer;
+       transition: .3s;
+       border-radius: 50px;
+    }
+    .search-box-button:active  {
+        transform: scale(.85);
+    }
+    .search-box-icone {
+        margin: auto;
+        color: blueviolet;
+    }
+    @media screen and (min-width: 400px){
+       
+        .search-box:hover .search-box-input {
+            width: 360px;
+        }
+    }
+   
+    #busca1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:black;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+    }
+   
+    #inicio{
+        color:blueviolet;
+        background-color:rgb(25, 4, 46);
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    }
+
+
+    #a1{
+        color:whitesmoke;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .jogos{
+        background-color: blueviolet;
+        width: 400px;
+        height: 400px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 30px;
+        border:10px solid blueviolet;
+    }
+
+
+    .quadrados1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    }
+
+
+    #a2{
+        color:whitesmoke;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .quadrados2{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        }
+
+
+    #a3{
+            color:whitesmoke;
+            font-weight: bolder;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    .quadrados3{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            }
+       
+    #a4{
+                color:whitesmoke;
+                font-weight: bolder;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+.quadrados4{
+                display: flex;
+                justify-content: space-around;
+                align-items:center;
+                }
+
+
+#a5{
+                    color:whitesmoke;
+                    font-weight: bolder;
+                    font-size: 20px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                .quadrados5{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items:center;
+                    }
+
+
+                    #a6{
+                        color:whitesmoke;
+                        font-weight: bolder;
+                        font-size: 20px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .quadrados6{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items:center;
+                        }
+
+
+                        #a7{
+                            color:whitesmoke;
+                            font-weight: bolder;
+                            font-size: 20px;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+
+
+                        .quadrados7{
+                            display: flex;
+                            justify-content: space-around;
+                            align-items:center;
+                            }
+
+
+                            .fotinhos{
+                                border-radius: 50px;
+                                border: 3px solid rgb(25, 4, 46);
+                            }
+
+
+            .comeco{
+                color:whitesmoke;
+            }
+
+
+            .links{
+                font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:whitesmoke;
+                font-weight: bolder;
+                text-decoration: none;
+                width: 160px;
+                text-align: center;
+                padding: 15px;
+                font-size: 15px;
+                background-color: blueviolet;
+                border-radius: 50px;
+                
+            }
+
+            #link{
+                display: flex;
+                justify-content: space-around;
+                align-items:center;
+                }
