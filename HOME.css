@@ -184,7 +184,7 @@ body{
     #conteudos{
     position:absolute;
     top:850px;
-    left:80px;
+    left:180px;
     width:700px;
     height:250px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -200,7 +200,7 @@ body{
     #jogos{
         position:absolute;
         top:850px;
-        right:90px;
+        right:190px;
         width:700px;
         height:250px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,7 +216,7 @@ body{
         #quemsomos{
             position:absolute;
             top:1125px;
-            left:80px;
+            left:180px;
             width:700px;
             height:250px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -232,7 +232,7 @@ body{
             #pac{
                 position:absolute;
                 top:1125px;
-                right:90px;
+                right:190px;
                 width:700px;
                 height:250px;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
